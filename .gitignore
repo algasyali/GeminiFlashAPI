@@ -1,0 +1,4 @@
+node_modulos/
+.env
+pacakge-lock.json
+/uploads
