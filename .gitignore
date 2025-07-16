@@ -1,4 +1,4 @@
-node_modules/
+sanode_modules/
 .env
-pacakge-lock.json
+package-lock.json
 /uploads
