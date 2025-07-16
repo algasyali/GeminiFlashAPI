@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const {
     GoogleGenerativeAI,
-    imageToGenerativePart // ✅ fungsi ini tersedia mulai versi 0.7.0
+    imageToGenerativePart 
 } = require('@google/generative-ai');
 
 dotenv.config();
@@ -39,7 +39,7 @@ app.post('/generate-text', async (req, res) => {
     try {
         const result = await model.generateContent(prompt);
         const response = await result.response;
-        const text = response.text(); // ✅ ambil teks saja
+        const text = response.text(); 
         res.json({
             text
         });
