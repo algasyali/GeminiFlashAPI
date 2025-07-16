@@ -1,5 +1,5 @@
 node_modules/
 .env
 node_modules
-_package-lock.json
+package-lock.json
 /uploads
